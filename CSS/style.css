@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.site-header h1 {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #0066cc;
+}
+
+
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    font-size: rem;
+    color: #666;
+}
+
+.hero p {
+    font-size: 2rem;
+    color: #ffffff;
+    max-width: 500px;
+}
+
+body {
+    background: url('https://giga.chat/gigachat/files/public/generated/4b9db88c-0dc6-4009-a0c2-9d4a3a1b1ca0') center/cover no-repeat fixed;
+    min-height: 100vh; /* На всякий случай */
+}
