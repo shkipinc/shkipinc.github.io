@@ -4,75 +4,78 @@
     box-sizing: border-box;
 }
 
-.site-header {
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+    background-image: url('https://giga.chat/gigachat/files/public/generated/4b9db88c-0dc6-4009-a0c2-9d4a3a1b1ca0');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
-    background-color: #f8f8f8;
-    border-bottom: 2px solid #ddd;
+    align-items: center;
+    padding: 20px;
+    background-color: #343331;
+    border-bottom: 1px solid #dee2e6;
 }
 
-.logo img {
-    width: 60px;
-    height: 60px;
-    display: block;
-}
-
-.site-header h1 {
-    text-align: center;
-    flex-grow: 1;
+.logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
+.nav {
     display: flex;
     gap: 20px;
 }
 
-nav a {
+.nav-link {
+    padding: 8px 16px;
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 5px 10px;
-}
-
-nav a:hover {
-    color: #0066cc;
-}
-
-
-
-.hero {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.hero h1 {
-    font-size: 4rem;
-    font-weight: 300;
-    margin: 0 0 10px 0;
-    line-height: 1.2;
-}
-
-.hero h1 span {
-    font-size: rem;
-    color: #666;
-}
-
-.hero p {
-    font-size: 2rem;
     color: #ffffff;
-    max-width: 500px;
+    background-color: #63625E;
+    border-radius: 4px;
 }
 
-body {
-    background: url('https://giga.chat/gigachat/files/public/generated/4b9db88c-0dc6-4009-a0c2-9d4a3a1b1ca0') center/cover no-repeat fixed;
-    min-height: 100vh; /* На всякий случай */
+.nav-link:hover {
+    background-color: #999690;
+}
+
+.content {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color:#e9ecef
 }
