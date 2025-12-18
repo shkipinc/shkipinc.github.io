@@ -52,7 +52,7 @@ body {
 .content {
     padding: 40px 20px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 170px auto;
 }
 
 .content h1 {
@@ -78,4 +78,12 @@ body {
     font-size: 20px;
     font-weight: bold;
     color:#e9ecef
+}
+
+.text-with-bg {
+    background-color: #343331;
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
 }
