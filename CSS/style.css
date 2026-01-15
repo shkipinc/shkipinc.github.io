@@ -50,12 +50,11 @@ body {
     padding: 40px 0px;
     max-width: 1000px;
     margin: 55px auto;
-    flex: 1;
 }
 
 .dark-bg {
-    background-color: #343331;
     color: white;
+    background-color: #343331;
     padding: 15px;
     margin: 15px;
 }
@@ -64,12 +63,10 @@ body {
     margin: 100px 0px;
 }
 .portfolio h2 {
-    color: #333;
     margin-bottom: 30px;
 }
-.portfolio-item {
+.portfolio-z {
     display: flex;
-    gap: 20px;
     margin-bottom: 30px;
     padding: 15px;
     background-color: #f8f9fa;
@@ -78,9 +75,7 @@ body {
     flex: 1;
 }
 .portfolio-text h3 {
-    color: #343331;
     margin-bottom: 10px;
-    font-size: 20px;
 }
 .portfolio-text p {
     margin-bottom: 8px;
@@ -102,18 +97,14 @@ body {
     margin: 100px 0;
 }
 .about h2 {
-    color: #333;
     margin-bottom: 30px;
-    font-size: 28px;
 }
-.about-item {
+.about-z {
     padding: 15px;
     background-color: #f8f9fa;
 }
 .about-text h3 {
-    color: #343331;
     margin-bottom: 10px;
-    font-size: 20px;
 }
 .about-text p {
     margin-bottom: 8px;
@@ -124,13 +115,10 @@ body {
     margin: 100px 0;
 }
 .contacts h2 {
-    color: #333;
     margin-bottom: 30px;
-    font-size: 28px;
 }
-.contacts-item {
+.contacts-z {
     display: flex;
-    gap: 20px;
     margin-bottom: 30px;
     padding: 15px;
     background-color: #f8f9fa;
@@ -139,9 +127,7 @@ body {
     flex: 1;
 }
 .contacts-text h3 {
-    color: #343331;
     margin-bottom: 10px;
-    font-size: 20px;
 }
 .contacts-text p {
     margin-bottom: 8px;
